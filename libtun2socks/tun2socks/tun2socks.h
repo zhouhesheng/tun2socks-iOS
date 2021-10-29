@@ -10,6 +10,7 @@
 #define tun2socks_h
 
 #include <stdio.h>
+#include <stdint.h>
 
 typedef void (*tun_cb)(char *data, int data_len);
 
